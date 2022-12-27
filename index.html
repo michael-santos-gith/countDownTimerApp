@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer App</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="container">
+  
+        <div id="content-date">
+          <fieldset>
+            <legend>Edite Time:</legend>
+            Event Name: <input id="event-name" type="text"><br>
+            Date: <input type="date" id="dateDayMonthYear"><br>
+            Optional Time: <input type="time" id="optionalTime">
+            <button id="buttonStart">Start</button>
+          </fieldset>
+        </div>
+        
+        <div id="content-time">
+          <h4></h4>
+          Day(s): <span id="days">00</span> Hours: <span id="hour">00</span> Minutes: <span id="minutes">00</span> Seconds: <span id="seconds">00</span>
+        </div>
+        
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

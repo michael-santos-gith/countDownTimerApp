@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    padding: 10% ;
+  }
+  
+  #container #content-date fieldset {
+    padding: 15px 10px;
+  }
+  
+  #container #content-date fieldset input {
+    margin-top: 15px;
+  }
+  
+  #container #content-date fieldset button {
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  #container #content-time {
+    margin-top: 10%;
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  @media (min-width: 768px) {
+    #container {
+      padding: 4%;
+    }
+
+    #container #content-time {
+      margin-top: 5%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    #container {
+      padding: 2%;
+    }
+  }
